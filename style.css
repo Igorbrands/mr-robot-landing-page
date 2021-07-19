@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Share Tech Mono', monospace, sans-serif;
+  background-color: #000;
+  margin: 24px;
+}
+
+header {
+  width: 100%;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  max-width: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
