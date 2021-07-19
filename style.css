@@ -9,23 +9,70 @@ body {
   height: 100vh;
   font-family: 'Share Tech Mono', monospace, sans-serif;
   background-color: #000;
-  margin: 24px;
+  color: #f1f1f1;
+  overflow: hidden;
 }
 
 header {
   width: 100%;
+  padding: 24px;
 }
 .nav-menu {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+main {
+  padding: 24px;
+}
 .logo {
   max-width: 200px;
 }
 
 .container {
+  margin-top: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.container span {
+  margin: 8px 0;
+}
+.container form input {
+  margin: 12px 0;
+  height: 32px;
+  width: 242px;
+}
+
+.container button {
+  all: unset;
+  height: 32px;
+
+  border-radius: 8px;
+  background-color: #dc2c2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #f3f3f3;
+  width: 100vw;
+}
+footer h3 {
+  align-self: center;
 }
