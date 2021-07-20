@@ -6,8 +6,8 @@ form.addEventListener('submit', (e) => {
   let name = document.getElementById('name').value;
   let mail = document.getElementById('email').value;
 
-  localStorage.setItem('e-mail', mail);
   localStorage.setItem('name', name);
+  localStorage.setItem('e-mail', mail);
 
-  document.createElement;
+  alert('Seu email foi cadastrado com sucesso ✅');
 });

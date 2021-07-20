@@ -13,6 +13,11 @@ body {
   overflow: hidden;
 }
 
+p,
+span {
+  font-size: 18px;
+}
+
 header {
   width: 100%;
   padding: 24px;
@@ -38,6 +43,11 @@ main {
   width: 100vw;
 }
 
+.container img {
+  max-width: 500px;
+  border-radius: 8px;
+}
+
 .container form {
   display: flex;
   flex-direction: column;
@@ -45,6 +55,7 @@ main {
 }
 .container span {
   margin: 8px 0;
+  text-align: center;
 }
 .container form input {
   margin: 12px 0;
@@ -64,25 +75,6 @@ main {
   cursor: pointer;
 }
 
-.modal {
-  position: relative;
-  background-color: #282a36;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  visibility: hidden;
-}
-
-.modal-close {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
 footer {
   position: absolute;
   bottom: 0;
@@ -94,4 +86,8 @@ footer {
 }
 footer h3 {
   align-self: center;
+}
+footer a {
+  text-decoration: unset;
+  color: #f1f1f1;
 }
