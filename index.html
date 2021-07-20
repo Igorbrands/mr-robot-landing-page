@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
@@ -35,13 +34,30 @@
           Power Computer</span
         >
         <img src="/assets/power-pc.jpg" alt="" />
-        <form action="">
-          <label for="name">Nome</label>
-          <input required type="text" placeholder="Digite seu hacker name"/>
-          <label for="email">E-mail</label>
-          <input required type="email" name="email" placeholder="Digite seu e-mail mais seguro" />
+        <form id="form">
+          <label>Nome</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Digite seu hacker name"
+            required
+          />
+          <label>E-mail</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Digite seu e-mail mais seguro"
+            required
+          />
           <button type="submit">Enviar</button>
         </form>
+        <div class="modal">
+          <img src="assets/hackerman.png" alt="Hackerman" />
+          <span class="modal-close">X</span>
+          <h2>Ótimo!</h2>
+          <p>Você está mais perto de se tornar um Hackerman</p>
+          <p>Em breve irá receber nossas ofertas por e-mail</p>
+        </div>
       </section>
     </main>
     <footer>
@@ -50,5 +66,5 @@
       </div>
     </footer>
   </body>
-  <script type="javascript" src="main.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </html>

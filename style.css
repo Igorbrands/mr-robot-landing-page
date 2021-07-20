@@ -64,6 +64,25 @@ main {
   cursor: pointer;
 }
 
+.modal {
+  position: relative;
+  background-color: #282a36;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  visibility: hidden;
+}
+
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 footer {
   position: absolute;
   bottom: 0;
